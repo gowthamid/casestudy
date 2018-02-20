@@ -1,0 +1,10 @@
+[
+	{
+		"orderId":1,
+		"custDetails":
+					{"name":"Gowt","address":"Bglr"},
+		"itemDetails":
+				{"itemname":"pizza","topping":"paneer","crust":"cheese burst","extras":"garlic bread"}
+				
+	}
+]
