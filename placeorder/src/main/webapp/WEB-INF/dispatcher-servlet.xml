@@ -14,4 +14,7 @@
  <context:component-scan base-package="com.placeorder" />
  <context:annotation-config />
  <mvc:annotation-driven />
+ 
+ <bean id="orderParser" class="org.json.simple.parser.JSONParser"></bean>
+ <bean id="orderMapper" class="com.fasterxml.jackson.databind.ObjectMapper"></bean>
  </beans>
